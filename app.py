@@ -6,15 +6,15 @@ st.header("About Me")
 
 
 st.subheader("Autobiography")
-st.text("Hi! My name is Jerry E. Doriquez Jr. I'm a 4th Year BSIT Student in Cebu Institute of Technology - University!")
-st.text("I have a degree in Computer Science and have worked on various projects including web apps, data analysis, and AI models.")
+st.write("Hi! My name is Jerry E. Doriquez Jr. I'm a 4th Year BSIT Student in Cebu Institute of Technology - University!")
+st.write("I have a degree in Computer Science and have worked on various projects including web apps, data analysis, and AI models.")
 
 
 st.image("Image.jpg", caption="Jerry Doriquez")
 
 
 with st.expander("More about me"):
-    st.text("In my free time, I enjoy playing games, reading books, and watching interesting movie series. I am somewhat of a boring person but that does not make me discouraged on finding new friends to hangout with.")
+    st.write("In my free time, I enjoy playing games, reading books, and watching interesting movie series. I am somewhat of a boring person but that does not make me discouraged on finding new friends to hangout with.")
 
 st.subheader("Portfolio")
 
